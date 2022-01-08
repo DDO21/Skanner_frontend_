@@ -17,7 +17,7 @@ class DashboardPage extends StatelessWidget {
               clipBehavior: Clip.antiAliasWithSaveLayer,
               child: InkWell(
                 splashColor: Colors.black26,
-                onTap: () {},
+                onTap: () {Navigator.push(context, MaterialPageRoute(builder: (context)=> Traducir()));},
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
@@ -49,7 +49,7 @@ class DashboardPage extends StatelessWidget {
               clipBehavior: Clip.antiAliasWithSaveLayer,
               child: InkWell(
                 splashColor: Colors.black26,
-                onTap: () {},
+                onTap: () {Navigator.push(context, MaterialPageRoute(builder: (context)=> Escanear()));},
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
@@ -81,7 +81,7 @@ class DashboardPage extends StatelessWidget {
               clipBehavior: Clip.antiAliasWithSaveLayer,
               child: InkWell(
                 splashColor: Colors.black26,
-                onTap: () {},
+                onTap: () {Navigator.push(context, MaterialPageRoute(builder: (context)=> Unir()));},
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
@@ -114,7 +114,7 @@ class DashboardPage extends StatelessWidget {
               clipBehavior: Clip.antiAliasWithSaveLayer,
               child: InkWell(
                 splashColor: Colors.black26,
-                onTap: () {},
+                onTap: () {Navigator.push(context, MaterialPageRoute(builder: (context)=> Convertir()));},
                 child: Column(
                   children: [
                     Ink.image(
@@ -145,7 +145,7 @@ class DashboardPage extends StatelessWidget {
               clipBehavior: Clip.antiAliasWithSaveLayer,
               child: InkWell(
                 splashColor: Colors.black26,
-                onTap: () {},
+                onTap: () {Navigator.push(context, MaterialPageRoute(builder: (context)=> Editar()));},
                 child: Column(
                   children: [
                     Ink.image(
